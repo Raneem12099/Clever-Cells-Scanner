@@ -1,4 +1,4 @@
-## Celver Cell Scanner Project
+## Clever Cell Scanner Project
 
 ## Description
 
@@ -8,40 +8,39 @@ The model demonstrated strong performance in the assessment, achieving a high ac
 The model was tested on new images to ensure its generalizability, and a simple user interface was developed to facilitate interaction with the system. These results enhance the potential of the model for clinical applications, where it can serve as a powerful aid in diagnosing multiple myeloma and improving the accuracy of medical assessments.
 In the future, the model can be further improved by increasing the size of training data, improving image preprocessing, and exploring deep learning techniques to improve the performance of classes with lower recall. Overall, this model is an important step towards automating and improving the accuracy of medical diagnosis, which contributes to improving the quality of healthcare.
 
-
-## Requirments
+## Requirements
 
 To run this project, follow these steps:
 
-- **Go to Google colab site "https://colab.research.google.com/"**  
-- **Upload Streamlit_colab.ipynp to colab and open it.**  
-- **Upload to the content of colab this:**
-    1. Font_static.zip file and unzip it
-    2. main.py
-    3. plasma_model.h5
-    4. req.txt
+- **Go to Google Colab site "https://colab.research.google.com/"**  
+- **Upload `Streamlit_colab.ipynb` to Colab and open it.**  
+- **Upload to the content of Colab the following:**
+    1. `Font_static.zip` file and unzip it
+    2. `main.py`
+    3. `plasma_model.h5`
+    4. `req.txt`
 - Run the cells, and when the general link is generated in the last cell, select it to open the interface.
 - This is the interface that will appear to you:
-![alt text](image.png)
 
-![alt text](image-1.png)
+![Interface Example 1](images/image.png)
+
+![Interface Example 2](images/image-1.png)
 
 ## Languages and Tools used:
 - **Python**
-- **Tensorflow**
+- **TensorFlow**
 - **Keras** 
-- **OpenCv**
+- **OpenCV**
 - **Ngrok** 
 
 ## Model used:
-- **U-net  Model for segmentation and classification**
-
+- **U-Net Model for segmentation and classification**
 
 ## Training with new data
 
 1. Download or clone this repository.
 2. Unzip the dataset files and merge them into one folder called *data*.
-3. Upload the folder data in your drive
-4. Open Training_CD138_2_(3).ipynp using colab, Don't forget to adjust the data path to suit your path.
+3. Upload the folder `data` to your Google Drive.
+4. Open `Training_CD138_2_(3).ipynb` using Colab. Don't forget to adjust the data path to suit your path.
 5. Run the code.
-6. If you want to use the interface for your new model, replace the plasma_model.h5 model with the new model file.
+6. If you want to use the interface for your new model, replace the `plasma_model.h5` model with the new model file.
