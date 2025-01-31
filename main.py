@@ -248,7 +248,7 @@ if uploaded_files:
 
         if positive_ratio < 10:
             interpretation = "Typically seen in normal bone marrow or in Monoclonal Gammopathy of Undetermined Significance (MGUS) if other factors support it."
-        elif 10 <= positive_ratio < 60:
+        elif 10 <= positive_ratio <= 60:
             interpretation = "Smoldering Myeloma (asymptomatic but concerning) or Needs Additional Criteria (CRAB Features: Calcium elevation, Renal dysfunction, Anemia, Bone lesions) to confirm active multiple myeloma."
         else:
             interpretation = "Definitive diagnosis of multiple myeloma based on the updated International Myeloma Working Group (IMWG) criteria, even without other myeloma-defining events."
@@ -277,10 +277,10 @@ if uploaded_files:
 
         with col2:
             st.write("#### Risk Level")
-            if positive_ratio < 20:
+            if positive_ratio < 10:
                 circle_color = '#02ce52'
                 risk_label = "Low Risk"
-            elif 20 <= positive_ratio < 60:
+            elif 10 <= positive_ratio <= 60:
                 circle_color = '#ffcb19'
                 risk_label = "Medium Risk"
             else:
