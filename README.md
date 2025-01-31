@@ -31,6 +31,8 @@ To run this project, follow these steps:
 - **TensorFlow**
 - **Keras** 
 - **OpenCV**
+- **Streamlit**
+- **Scikit-learn**
 - **Ngrok** 
 
 ## Model used:
