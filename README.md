@@ -8,6 +8,12 @@ The model demonstrated strong performance in the assessment, achieving a high ac
 The model was tested on new images to ensure its generalizability, and a simple user interface was developed to facilitate interaction with the system. These results enhance the potential of the model for clinical applications, where it can serve as a powerful aid in diagnosing multiple myeloma and improving the accuracy of medical assessments.
 In the future, the model can be further improved by increasing the size of training data, improving image preprocessing, and exploring deep learning techniques to improve the performance of classes with lower recall. Overall, this model is an important step towards automating and improving the accuracy of medical diagnosis, which contributes to improving the quality of healthcare.
 
+## Team Members
+
+Raneem Albeshi (@Raneem12099)
+Reenad Albeshi (@Reenad1290)
+Wujud Binmahaya (@Wujud-Bandrar-binmahaya)
+
 ## Requirements
 
 To run this project, follow these steps:
