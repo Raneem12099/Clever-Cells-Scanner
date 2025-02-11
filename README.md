@@ -10,9 +10,9 @@ In the future, the model can be further improved by increasing the size of train
 
 ## Team Members
 
-Raneem Albeshi (@Raneem12099)
-Reenad Albeshi (@Reenad1290)
-Wujud Binmahaya (@Wujud-Bandrar-binmahaya)
+1. Raneem Albeshi (@Raneem12099)
+2. Reenad Albeshi (@Reenad1290)
+3. Wujud Binmahaya (@Wujud-Bandrar-binmahaya)
 
 ## Requirements
 
